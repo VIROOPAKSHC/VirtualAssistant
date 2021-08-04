@@ -97,8 +97,6 @@ Libraries used:
 </ol>
   
 ## <b>Contact me</b>
-<button name="button">Click me</button>
-[Click me](http://www.google.com){: .btn}
-<button onclick="https://www.linkedin.com/in/viroopaksh-chekuri-9997301a7/">Chekuri Viroopaksh - LinkedIn</button> <br>
+<button><a href="https://www.linkedin.com/in/viroopaksh-chekuri-9997301a7/">Chekuri Viroopaksh - LinkedIn</a></button> <br>
   <button><a href="https://twitter.com/ViroopakshC">Chekuri Viroopaksh - Twitter</a></button> <br>
   <button><a href="https://github.com/VIROOPAKSHC/">Chekuri Viroopaksh - Github</a></button> <br>
