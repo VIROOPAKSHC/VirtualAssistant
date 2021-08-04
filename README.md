@@ -54,33 +54,37 @@ Libraries used:
     main function is run when the file is run directly and does not run when it is imported as a module.
     <code>__name__=="__main__"</code>
   </li>
+</ul>
+  
   <b>The main function calls each of the funciton defined in the program sequentially:</b>
-  <ol>
+<ol>
     <li>
     speak() function:
-      Is written to handle all the speaking of the assistant through it.<br>
-      It takes the content , speed as parameters and speaks the content to the user in the specified speed. <em><b>The default speed of the assistant (pyttsx3 module variable) has 200 as its speed.</b></em>
+      Is written to handle all the speaking of the assistant through it. <br>
+      It takes the content , speed as parameters and speaks the content to the user in the specified speed. <em><b> The default speed of the assistant (pyttsx3 module variable) has 200 as its speed. </b></em>
     </li>
-    <li>takeCommand() function:
-      This function listens to the user through the speech_recognition module's variable and tries to convert the user's command into text as a command to execute one of the functions defined to handle the command.
-      If the module is unable to understand the command it prompts the user to specify it again and the error is handled by the try-except block.
-    </li>
-    <li>
+  <li>
       The wish() function:
       Function uses the speak function and greets the user whoever is running the program
       with a <i>greeting according to the time.</i>
     </li>
-    <li>The time() function:
+  <li> 
+    takeCommand() function:
+      This function listens to the user through the speech_recognition module's variable and tries to convert the user's command into text as a command to execute one of the functions defined to handle the command.
+      If the module is unable to understand the command it prompts the user to specify it again and the error is handled by the try-except block. 
+  </li>
+  <li>
+      The time() function:
       <em> It is called when the word "time" is in the query </em>
       It uses the datetime module to get the time in a specific format (<code>HH:MM:SS PM</code>)
       and tells the user the time.
     </li>
-    
-    <li>The date() function:
+  
+  <li>The date() function:
       <em> It is called when the word "Date" is in the query </em>
       It uses the datetime module to get the date and tells the user the date.
     </li>
-    <li>cpu</li>
+      <li>cpu</li>
     <li>screenshot</li>
     <li>sendmail</li>
     <li>jokes</li>
@@ -91,6 +95,8 @@ Libraries used:
     <li>remember</li>
     
     
-  </ol>
+    
+    
+</ol>
   
-</ul>
+
