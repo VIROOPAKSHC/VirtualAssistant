@@ -99,7 +99,7 @@ def screenshot():
 
     '''
     img=pyautogui.screenshot()
-    img.save("C:\\Users\\kabali\\OneDrive\\Desktop\\Screenshot.png")
+    img.save("C:\\PATH\\Desktop\\Screenshot.png")
     
 def takeCommand():
     '''
@@ -236,11 +236,11 @@ if __name__=="__main__":
             data=takeCommand()
             speak("You said me to remember "+data)
             
-            remember=open("C:\\Users\\kabali\\OneDrive\\data.txt","a")
+            remember=open("C:\\PATH\\data.txt","a")
             remember.append(data+"\n")
             remember.close()
         elif "what did i say to remember" in query:
-            data=open("C:\\Users\\kabali\\OneDrive\\data.txt",'r')
+            data=open("C:\\PATH\\data.txt",'r')
             speak("You said to remember "+data.readlines()[-1])
         elif "screenshot" in query and "take" in query:
             screenshot()
