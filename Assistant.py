@@ -57,7 +57,7 @@ def time():
     using the datetime module.
 
     '''
-    time=datetime.datetime.now().strftime("%I:%M:%S PM")
+    time=datetime.datetime.now().strftime("%H:%M:%S")
     return time
 
 def date():
