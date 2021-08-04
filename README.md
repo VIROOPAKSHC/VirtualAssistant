@@ -4,8 +4,6 @@ Use the code for purposes if you wish to.
 Download the project files using:<br>
 <code>github clone https://github.com/VIROOPAKSHC/VirtualAssistant </code>
 <br>
-<br>
-<br>
 
 <i><b>Description:</b></i>
 This virtual assistant program demonstrates the use of Python programming language and connects with several websites through API calls and gets the info on behalf of us. 
