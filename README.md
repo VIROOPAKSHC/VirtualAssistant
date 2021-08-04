@@ -1,6 +1,17 @@
-# VirtualAssistant
+### VirtualAssistant with Python and APIs
+I would like to demonstrate the program written in the Assistant.py file
+Use the code for purposes if you wish to.
+Download the project files using:<br>
+github clone https://github.com/VIROOPAKSHC/VirtualAssistant
+<br>
+<br>
+<br>
+
+<i><b>Description:</b></i>
 This virtual assistant program demonstrates the use of Python programming language and connects with several websites through API calls and gets the info on behalf of us. 
-Working on this I hope to add many things to my virtual_Assistant so that it does more help to me.
+Working on this I hope to add many things to my virtual_Assistant so that it does more help to me. <br>
+<br>
+
 
 Libraries used:
 <ul>
