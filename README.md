@@ -74,7 +74,7 @@ Libraries used:
   <li>
       The time() function:
       <em> It is called when the word "time" is in the query </em>
-      It uses the datetime module to get the time in a specific format (<code>HH:MM:SS PM</code>)
+      It uses the datetime module to get the time in a specific format (<code>HH:MM:SS</code>)
       and tells the user the time.
     </li>
   
