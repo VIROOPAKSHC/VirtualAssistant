@@ -2,7 +2,7 @@
 I would like to demonstrate the program written in the Assistant.py file
 Use the code for purposes if you wish to.
 Download the project files using:<br>
-<code>github clone https://github.com/VIROOPAKSHC/VirtualAssistant </code>
+``git clone https://github.com/VIROOPAKSHC/VirtualAssistant``
 <br>
 
 <i><b>Description:</b></i>
